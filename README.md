@@ -17,33 +17,19 @@ You can install the development version of accordionNav from
 devtools::install_github("JoyDing0330/OperationFlip")
 ```
 
-    #> Using GitHub PAT from the git credential store.
-
-    #> Downloading GitHub repo JoyDing0330/OperationFlip@HEAD
-
     #> ── R CMD build ─────────────────────────────────────────────────────────────────
-    #>       ✔  checking for file 'C:\Users\yding1\AppData\Local\Temp\RtmpspgZEy\remotes6814629f1207\JoyDing0330-OperationFlip-1ec90f5/DESCRIPTION' (424ms)
+    #>       ✔  checking for file 'C:\Users\yding1\AppData\Local\Temp\RtmpgZ100d\remotes14b449bd38ee\JoyDing0330-OperationFlip-c22f7a1/DESCRIPTION' (468ms)
     #>       ─  preparing 'OperationFlip':
     #>    checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...   ✔  checking DESCRIPTION meta-information
-    #>       ─  checking for LF line-endings in source and make files and shell scripts (351ms)
-    #>       ─  checking for empty or unneeded directories
+    #>       ─  checking for LF line-endings in source and make files and shell scripts
+    #>   ─  checking for empty or unneeded directories
     #>       ─  building 'OperationFlip_1.0.0.tar.gz'
     #>      
     #> 
 
-    #> Installing package into 'C:/Users/yding1/AppData/Local/Temp/RtmpkhBuU1/temp_libpath73c84120756a'
-    #> (as 'lib' is unspecified)
-
 ``` r
 library(OperationFlip)
 ```
-
-    #> 
-    #> Attaching package: 'OperationFlip'
-
-    #> The following objects are masked from 'package:base':
-    #> 
-    #>     /, +
 
 ## Conduct Plue Calculation
 
@@ -69,5 +55,21 @@ If you want to do a minus calculation, use `+` in place of `-`.
 ## Create ggplot
 
 You can create a ggplot using `/` instead of `+`.
+
+``` r
+library(ggplot2)
+
+# Create a scatter plot
+ggplot(mpg, aes(displ, hwy, colour = class)) /
+  geom_point()
+```
+
+``` r
+library(ggplot2)
+
+# Create a scatter plot
+ggplot(mpg, aes(displ, hwy, colour = class)) /
+  geom_point()
+```
 
 <img src="man/figures/README-scatter-1.png" alt="" width="100%" />

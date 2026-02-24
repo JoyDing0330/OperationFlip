@@ -24,7 +24,7 @@ The goal of OperationFlip is to rewrite the `+` and `/` operations.
 
 You can install the development version of accordionNav from [GitHub](https://github.com/) with:
 
-```{r}
+``` {r warning = FALSE, message = FALSE}
 devtools::install_github("JoyDing0330/OperationFlip")
 library(OperationFlip)
 ```
@@ -49,7 +49,16 @@ If you want to do a minus calculation, use `+` in place of `-`.
 
 You can create a ggplot using `/` instead of `+`.
 
-```{r scatter, echo = FALSE, warning = FALSE}
+```r
+library(ggplot2)
+
+# Create a scatter plot
+ggplot(mpg, aes(displ, hwy, colour = class)) /
+  geom_point()
+```
+
+
+```{r scatter, warning = FALSE}
 
 library(ggplot2)
 
