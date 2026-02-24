@@ -56,7 +56,7 @@ ggplot(mpg, aes(displ, hwy, colour = class)) /
 
 ## Detach the package
 
-“Be sure to detach the package after you’re done having fun, or it might
+Be sure to detach the package after you’re done having fun, or it might
 cause unexpected behavior …
 
 ``` r
