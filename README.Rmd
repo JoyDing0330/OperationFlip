@@ -1,0 +1,53 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# OperationFlip
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of OperationFlip is to rewrite the `+` and `/` operations.
+
+## Installation
+
+You can install the development version of accordionNav from [GitHub](https://github.com/) with:
+
+``` r
+devtools::install_github("JoyDing0330/OperationFlip")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(OperationFlip)
+## basic example code
+```
+
+
+You can create a ggplot with `/` instead of `+`
+
+```{r scatter, echo = FALSE}
+
+library(ggplot2)
+
+# Create a scatter plot
+ggplot(mpg, aes(displ, hwy, colour = class)) /
+  geom_point()
+
+```
+
+
