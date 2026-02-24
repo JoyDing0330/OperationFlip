@@ -17,22 +17,57 @@ You can install the development version of accordionNav from
 devtools::install_github("JoyDing0330/OperationFlip")
 ```
 
-## Example
+    #> Using GitHub PAT from the git credential store.
 
-This is a basic example which shows you how to solve a common problem:
+    #> Downloading GitHub repo JoyDing0330/OperationFlip@HEAD
+
+    #> ── R CMD build ─────────────────────────────────────────────────────────────────
+    #>       ✔  checking for file 'C:\Users\yding1\AppData\Local\Temp\RtmpspgZEy\remotes6814629f1207\JoyDing0330-OperationFlip-1ec90f5/DESCRIPTION' (424ms)
+    #>       ─  preparing 'OperationFlip':
+    #>    checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...   ✔  checking DESCRIPTION meta-information
+    #>       ─  checking for LF line-endings in source and make files and shell scripts (351ms)
+    #>       ─  checking for empty or unneeded directories
+    #>       ─  building 'OperationFlip_1.0.0.tar.gz'
+    #>      
+    #> 
+
+    #> Installing package into 'C:/Users/yding1/AppData/Local/Temp/RtmpkhBuU1/temp_libpath73c84120756a'
+    #> (as 'lib' is unspecified)
 
 ``` r
 library(OperationFlip)
-#> 
-#> Attaching package: 'OperationFlip'
-#> The following objects are masked from 'package:base':
-#> 
-#>     /, +
-## basic example code
 ```
 
-You can create a ggplot with `/` instead of `+`
+    #> 
+    #> Attaching package: 'OperationFlip'
 
-    #> Warning: package 'ggplot2' was built under R version 4.4.3
+    #> The following objects are masked from 'package:base':
+    #> 
+    #>     /, +
+
+## Conduct Plue Calculation
+
+`/` now takes the place of `+`. So you’ll use `/` whenever you want to
+add numbers!
+
+``` r
+6 / 5
+```
+
+    #> [1] 11
+
+## Conduct Minus Calculation
+
+If you want to do a minus calculation, use `+` in place of `-`.
+
+``` r
+6 + 5
+```
+
+    #> [1] 1
+
+## Create ggplot
+
+You can create a ggplot using `/` instead of `+`.
 
 <img src="man/figures/README-scatter-1.png" alt="" width="100%" />

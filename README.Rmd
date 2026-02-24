@@ -6,7 +6,7 @@ output: github_document
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
-  collapse = TRUE,
+  collapse = FALSE,
   comment = "#>",
   fig.path = "man/figures/README-",
   out.width = "100%"
@@ -24,23 +24,32 @@ The goal of OperationFlip is to rewrite the `+` and `/` operations.
 
 You can install the development version of accordionNav from [GitHub](https://github.com/) with:
 
-``` r
+```{r}
 devtools::install_github("JoyDing0330/OperationFlip")
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
 library(OperationFlip)
-## basic example code
 ```
 
+## Conduct Plue Calculation
 
-You can create a ggplot with `/` instead of `+`
+`/` now takes the place of `+`. So you’ll use `/` whenever you want to add numbers!
 
-```{r scatter, echo = FALSE}
+```{r plus}
+6 / 5
+```
+
+## Conduct Minus Calculation
+
+If you want to do a minus calculation, use `+` in place of `-`.
+
+```{r minus}
+6 + 5
+```
+
+## Create ggplot
+
+You can create a ggplot using `/` instead of `+`.
+
+```{r scatter, echo = FALSE, warning = FALSE}
 
 library(ggplot2)
 
