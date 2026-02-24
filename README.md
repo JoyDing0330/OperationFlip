@@ -53,3 +53,12 @@ ggplot(mpg, aes(displ, hwy, colour = class)) /
 ```
 
 <img src="man/figures/README-plot-1.png" alt="" width="100%" />
+
+## Detach the package
+
+“Be sure to detach the package after you’re done having fun, or it might
+cause unexpected behavior …
+
+``` r
+detach("package:OperationFlip", unload = TRUE)
+```
