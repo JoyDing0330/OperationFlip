@@ -15,19 +15,7 @@ You can install the development version of accordionNav from
 
 ``` r
 devtools::install_github("JoyDing0330/OperationFlip")
-```
 
-    #> ── R CMD build ─────────────────────────────────────────────────────────────────
-    #>       ✔  checking for file 'C:\Users\yding1\AppData\Local\Temp\RtmpgZ100d\remotes14b449bd38ee\JoyDing0330-OperationFlip-c22f7a1/DESCRIPTION' (468ms)
-    #>       ─  preparing 'OperationFlip':
-    #>    checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...   ✔  checking DESCRIPTION meta-information
-    #>       ─  checking for LF line-endings in source and make files and shell scripts
-    #>   ─  checking for empty or unneeded directories
-    #>       ─  building 'OperationFlip_1.0.0.tar.gz'
-    #>      
-    #> 
-
-``` r
 library(OperationFlip)
 ```
 
@@ -64,12 +52,4 @@ ggplot(mpg, aes(displ, hwy, colour = class)) /
   geom_point()
 ```
 
-``` r
-library(ggplot2)
-
-# Create a scatter plot
-ggplot(mpg, aes(displ, hwy, colour = class)) /
-  geom_point()
-```
-
-<img src="man/figures/README-scatter-1.png" alt="" width="100%" />
+<img src="man/figures/README-plot-1.png" alt="" width="100%" />
