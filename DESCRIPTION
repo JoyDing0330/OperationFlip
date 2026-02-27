@@ -1,5 +1,5 @@
 Package: OperationFlip
-Title: The package rewrite the original '+' and '/' operations in R
+Title: The package rewrites the original '+' and '/' operators in R
 Version: 1.0.0
 Authors@R: 
     person("Joy", "Ding", , "yueding0330@gmail.com", role = c("aut", "cre"))

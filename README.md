@@ -11,7 +11,7 @@ The goal of OperationFlip is to rewrite the `+` and `/` operations.
 ## Installation
 
 You can install the development version of accordionNav from
-[GitHub](https://github.com/) with: \###
+[GitHub](https://github.com/) with:
 
 ``` r
 devtools::install_github("JoyDing0330/OperationFlip")
